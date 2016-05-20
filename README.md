@@ -25,8 +25,8 @@ PSImage *squareImage = [PSImage initWithImageNamed:@"logo6.jpg"];
 
 **To Assign PSImage to UIImageView**
 
-testImageView = [[UIImageView alloc]initWithFrame:CGRectMake(0, 0, 100, 100)];
-[testImageView setImage:squareImage];
+`testImageView = [[UIImageView alloc]initWithFrame:CGRectMake(0, 0, 100, 100)];
+[testImageView setImage:squareImage];`
 
 
 ----------
@@ -40,10 +40,10 @@ A subclass of UIImageView. Takes the load of making rounded image view on itself
 
 **To create a PSImageView**
 
-PSRoundedImageView *imageView = [PSRoundedImageView initWithFrame:CGRectMake(0, 0, 100, 100)
+`PSRoundedImageView *imageView = [PSRoundedImageView initWithFrame:CGRectMake(0, 0, 100, 100)
 andWithImageNamed:@"logo6.jpg"
 andContentAspect:PSRoundedImageContentModeScaleAspectFit];
-[self.view addSubview:imageView];
+[self.view addSubview:imageView];`
 
 
 ----------
