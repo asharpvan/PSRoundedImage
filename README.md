@@ -1,4 +1,4 @@
-## PSRoundedImage ##
+# PSRoundedImage
 
 
 ----------
@@ -17,7 +17,7 @@ This is a very intelligent subclass of `UIImage`, creates a round image after ma
 
 **Import .h file**
 
-#import "PSImage.h"
+`#import "PSImage.h"`
 
 **To create a PSImage**
 
@@ -36,7 +36,7 @@ A subclass of UIImageView. Takes the load of making rounded image view on itself
 
 **Import .h file**
 
-#import "PSRoundedImageView.h"
+`#import "PSRoundedImageView.h"`
 
 **To create a PSImageView**
 
